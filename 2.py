@@ -1,4 +1,4 @@
-
+new commit
 # 03_gorusme_dizisi_olusturma.py
 # Bu script, asistan ile kullanıcı arasında yeni bir konuşma başlatır.
 # Her 'thread', bağımsız bir konuşma geçmişini temsil eder.
@@ -38,5 +38,6 @@ run = client.beta.threads.runs.create(
   thread_id=THREAD_ID,
   assistant_id=ASSISTANT_ID
 )
+
 
 print(f"Asistan çalıştırıldı. Run ID: {run.id}")
