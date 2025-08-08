@@ -1,4 +1,4 @@
-#Github New Commit 3
+#Github New Commit - n8n
 # 01_kurulum_ve_istemci.py
 # Bu script, OpenAI API ile bağlantı kurmak için istemciyi başlatır.
 # API anahtarınızı ortam değişkenlerinden güvenli bir şekilde yükler.
@@ -34,5 +34,6 @@ print(f"Asistan başarıyla oluşturuldu. ID: {assistant.id}")
 # Bu ID'yi bir dosyaya veya veritabanına kaydederek her seferinde
 
 # yeni bir asistan oluşturmaktan kaçınabilirsiniz.
+
 
 
